@@ -71,6 +71,11 @@ html, body {
   margin: 0.3rem auto 1rem;
 }
 
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
 /* Icons */
 .fa-code {
   color: #e54d26;
