@@ -19,18 +19,27 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img
-          src="Image/Logo/2efb024c-e410-4081-8379-52416844b899_200x200-removebg-preview.png" width="50" alt="Logo"></a>
+      <!-- Logo & Branding (Horizontal Layout) -->
+      <div class="d-flex align-items-center mb-4">
+        <a href="#" class="d-inline-block me-3">
+          <img src="Image/Logo/The_Mafia_Gaming_Logo1.png" width="100" alt="The Mafia Gaming Logo" class="img-fluid">
+        </a>
+        <div>
+          <h5 class="text-uppercase mb-1">The Mafia Gaming</h5>
+          <p class="small text-muted mb-0">Gaming & Creative Solutions</p>
+        </div>
+      </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#slides">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
         </ul>
       </div>
     </div>
@@ -79,55 +88,56 @@
     </div>
   </div>
 
-<!-- Welcome Section -->
-<div class="container-fluid text-center py-5 bg-light" id="services">
-  <h1 class="display-4 font-weight-bold">Build with Confidence</h1>
-  <hr class="w-25 mx-auto">
-  <p class="lead text-muted">
-    Welcome to a modern, responsive web experience powered by Bootstrap 4. 
-    Built using clean HTML5, enhanced CSS3, and scalable components for any device.
-  </p>
-</div>
-
-<!-- Features Section -->
-<div class="container-fluid py-5 text-center">
-  <div class="row">
-    <div class="col-sm-6 col-md-4 mb-4">
-      <i class="fa fa-code fa-3x text-primary mb-3"></i>
-      <h4 class="font-weight-bold">HTML5</h4>
-      <p class="text-muted">Built using the latest standards in HTML for performance and structure.</p>
-    </div>
-    <div class="col-sm-6 col-md-4 mb-4">
-      <i class="fa fa-bold fa-3x text-primary mb-3"></i>
-      <h4 class="font-weight-bold">Bootstrap 4</h4>
-      <p class="text-muted">Responsive design framework for mobile-first, clean UI layouts.</p>
-    </div>
-    <div class="col-sm-12 col-md-4 mb-4">
-      <i class="fa fa-css3 fa-3x text-primary mb-3"></i>
-      <h4 class="font-weight-bold">CSS3</h4>
-      <p class="text-muted">Modern styles and animations powered by CSS3 enhancements.</p>
-    </div>
+  <!-- Welcome Section -->
+  <div class="container-fluid text-center py-5 bg-light" id="services">
+    <h1 class="display-4 font-weight-bold">Build with Confidence</h1>
+    <hr class="w-25 mx-auto">
+    <p class="lead text-muted">
+      Welcome to a modern, responsive web experience powered by Bootstrap 4.
+      Built using clean HTML5, enhanced CSS3, and scalable components for any device.
+    </p>
   </div>
-  <hr class="my-4 w-50 mx-auto">
-</div>
 
-<!-- Two Column Info Section -->
-<div class="container-fluid py-5">
-  <div class="row align-items-center">
-    <div class="col-lg-6 mb-4 mb-lg-0">
-      <h2 class="font-weight-bold">Why Responsive Design Matters</h2>
-      <p class="text-muted">In a mobile-first world, your content must adapt gracefully across all screen sizes.</p>
-      <p class="text-muted">Bootstrap's responsive grid ensures your layout performs consistently on desktops, tablets, and smartphones.</p>
-      <p class="text-muted">Let your website shine with flexibility, speed, and accessibility.</p>
-      <a href="#" class="btn btn-primary mt-3 px-4">Learn More</a>
+  <!-- Features Section -->
+  <div class="container-fluid py-5 text-center">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 mb-4">
+        <i class="fa fa-code fa-3x text-primary mb-3"></i>
+        <h4 class="font-weight-bold">HTML5</h4>
+        <p class="text-muted">Built using the latest standards in HTML for performance and structure.</p>
+      </div>
+      <div class="col-sm-6 col-md-4 mb-4">
+        <i class="fa fa-bold fa-3x text-primary mb-3"></i>
+        <h4 class="font-weight-bold">Bootstrap 4</h4>
+        <p class="text-muted">Responsive design framework for mobile-first, clean UI layouts.</p>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4">
+        <i class="fa fa-css3 fa-3x text-primary mb-3"></i>
+        <h4 class="font-weight-bold">CSS3</h4>
+        <p class="text-muted">Modern styles and animations powered by CSS3 enhancements.</p>
+      </div>
     </div>
-    <div class="col-lg-6">
-      <img src="Image/User/young-businesswoman-checking-her-tablet-with-copy-space_23-2148826479.jpg"
-        class="img-fluid rounded shadow" alt="Professional using tablet">
-    </div>
+    <hr class="my-4 w-50 mx-auto">
   </div>
-  <hr class="my-4">
-</div>
+
+  <!-- Two Column Info Section -->
+  <div class="container-fluid py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="font-weight-bold">Why Responsive Design Matters</h2>
+        <p class="text-muted">In a mobile-first world, your content must adapt gracefully across all screen sizes.</p>
+        <p class="text-muted">Bootstrap's responsive grid ensures your layout performs consistently on desktops,
+          tablets, and smartphones.</p>
+        <p class="text-muted">Let your website shine with flexibility, speed, and accessibility.</p>
+        <a href="#" class="btn btn-primary mt-3 px-4">Learn More</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="Image/User/young-businesswoman-checking-her-tablet-with-copy-space_23-2148826479.jpg"
+          class="img-fluid rounded shadow" alt="Professional using tablet">
+      </div>
+    </div>
+    <hr class="my-4">
+  </div>
 
   <!-- Fixed Background -->
   <!-- <figure>
@@ -139,224 +149,276 @@
   </figure> -->
 
   <!-- Fixed Background Section -->
-<section class="fixed-background text-center text-white d-flex align-items-center justify-content-center">
-  <div class="overlay-content">
-    <h2 class="display-4 font-weight-bold">Seamless User Experience</h2>
-    <p class="lead">Modern, responsive, and visually engaging web design</p>
-    <a href="#" class="btn btn-outline-light mt-3 px-4">Discover More</a>
-  </div>
-</section>
+  <section class="fixed-background text-center text-white d-flex align-items-center justify-content-center">
+    <div class="overlay-content">
+      <h2 class="display-4 font-weight-bold">Seamless User Experience</h2>
+      <p class="lead">Modern, responsive, and visually engaging web design</p>
+      <a href="#" class="btn btn-outline-light mt-3 px-4">Discover More</a>
+    </div>
+  </section>
 
 
   <!-- Emoji Section -->
-  <div class="text-center my-3">
-    <button class="btn btn-warning" data-toggle="collapse" data-target="#emoji">Click for Fun</button>
-  </div>
-  <div id="emoji" class="collapse">
-    <div class="container-fluid">
-      <div class="row text-center">
-        <!-- Add emojis here (already added in your original) -->
-        <!-- Use alt="" or descriptive alt for accessibility -->
+  <section class="text-center my-5">
+    <button class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#emoji">🎉 Click for Fun</button>
+    <div id="emoji" class="collapse mt-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Add emojis here -->
+          <div class="col-2">😄</div>
+          <div class="col-2">🎨</div>
+          <div class="col-2">🚀</div>
+          <div class="col-2">💡</div>
+          <div class="col-2">🐱</div>
+          <div class="col-2">🍕</div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- Meet the Team -->
-  <div class="container-fluid py-5 text-center">
-    <h1 class="display-4 mb-4">Meet the Team</h1>
-    <hr class="w-25 mx-auto mb-5">
+  <!-- Meet the Team Section -->
+  <section class="py-5 bg-light text-center" id="team">
+    <div class="container">
+      <h1 class="display-4 mb-4">Meet the Team</h1>
+      <hr class="w-25 mx-auto mb-5">
 
-    <div class="row justify-content-center">
-      <!-- Team Member 1 -->
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/0ca5b32427a48c1e81007db739236be6.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Alex Johnson</h5>
-            <p class="card-text">Full Stack Developer</p>
+      <div class="row justify-content-center">
+        <!-- Reusable team card -->
+        <!-- Card Template -->
+        <!-- Just duplicate this card block and update content as needed -->
+
+        <!-- Team Member -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/0ca5b32427a48c1e81007db739236be6.gif" class="card-img-top"
+              alt="Alex Johnson - Full Stack Developer">
+            <div class="card-body">
+              <h5 class="card-title">Alex Johnson</h5>
+              <p class="card-text">Full Stack Developer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Add more team members as needed -->
-      <!-- Example -->
-
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/animoji-chicken-emojipedia.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Priya Desai</h5>
-            <p class="card-text">Cybersecurity Analyst</p>
+        <!-- Additional Members -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/animoji-chicken-emojipedia.gif" class="card-img-top"
+              alt="Priya Desai - Cybersecurity Analyst">
+            <div class="card-body">
+              <h5 class="card-title">Priya Desai</h5>
+              <p class="card-text">Cybersecurity Analyst</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/12031531eadbbbcccb30c2d0c3be919d.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Michael Chen</h5>
-            <p class="card-text">Machine Learning Engineer</p>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/12031531eadbbbcccb30c2d0c3be919d.gif" class="card-img-top"
+              alt="Michael Chen - Machine Learning Engineer">
+            <div class="card-body">
+              <h5 class="card-title">Michael Chen</h5>
+              <p class="card-text">Machine Learning Engineer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/77781b9e4b4701ec1fbafe6b7e716f33.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Sara Al-Mansour</h5>
-            <p class="card-text">Project Manager</p>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/77781b9e4b4701ec1fbafe6b7e716f33.gif" class="card-img-top"
+              alt="Sara Al-Mansour - Project Manager">
+            <div class="card-body">
+              <h5 class="card-title">Sara Al-Mansour</h5>
+              <p class="card-text">Project Manager</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/animoji-poop-from-iphone-as-gif.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">David Osei</h5>
-            <p class="card-text">Cloud Solutions Architect</p>
+        <!-- Continue below with the rest -->
 
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/animoji-poop-from-iphone-as-gif.gif" class="card-img-top"
+              alt="David Osei - Cloud Architect">
+            <div class="card-body">
+              <h5 class="card-title">David Osei</h5>
+              <p class="card-text">Cloud Solutions Architect</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/animoji-rabbit-emojipedia.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Isabella Rossi</h5>
-            <p class="card-text">UI/UX Designer</p>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/animoji-rabbit-emojipedia.gif" class="card-img-top"
+              alt="Isabella Rossi - UI/UX Designer">
+            <div class="card-body">
+              <h5 class="card-title">Isabella Rossi</h5>
+              <p class="card-text">UI/UX Designer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/bear-animoji-emojipedia-1.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Rohan Kapoor</h5>
-            <p class="card-text">DevOps Engineer</p>
-
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/bear-animoji-emojipedia-1.gif" class="card-img-top"
+              alt="Rohan Kapoor - DevOps Engineer">
+            <div class="card-body">
+              <h5 class="card-title">Rohan Kapoor</h5>
+              <p class="card-text">DevOps Engineer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/e4e5d748d485634732b4b381fb04b77f.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Emily Nguyen</h5>
-            <p class="card-text">Frontend Developer</p>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/e4e5d748d485634732b4b381fb04b77f.gif" class="card-img-top"
+              alt="Emily Nguyen - Frontend Developer">
+            <div class="card-body">
+              <h5 class="card-title">Emily Nguyen</h5>
+              <p class="card-text">Frontend Developer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/funnygifsbox.com-2020-07-18-07-46-32-10.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Carlos Martinez</h5>
-            <p class="card-text">Backend Developer</p>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/funnygifsbox.com-2020-07-18-07-46-32-10.gif" class="card-img-top"
+              alt="Carlos Martinez - Backend Developer">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Martinez</h5>
+              <p class="card-text">Backend Developer</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/img_0669.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Lina Bergström</h5>
-            <p class="card-text">Data Scientist</p>
-
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/img_0669.gif" class="card-img-top" alt="Lina Bergström - Data Scientist">
+            <div class="card-body">
+              <h5 class="card-title">Lina Bergström</h5>
+              <p class="card-text">Data Scientist</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="Image/Gif/tenor.gif" class="card-img-top" alt="Team Member">
-          <div class="card-body">
-            <h5 class="card-title">Tariq Hassan</h5>
-            <p class="card-text">AI Researcher</p>
-
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card border-0 shadow h-100">
+            <img src="Image/Gif/tenor.gif" class="card-img-top" alt="Tariq Hassan - AI Researcher">
+            <div class="card-body">
+              <h5 class="card-title">Tariq Hassan</h5>
+              <p class="card-text">AI Researcher</p>
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
+  </section>
 
 
   <!-- Our Philosophy Section -->
-  <div class="container-fluid padding">
-    <div class="row padding">
-      <div class="col-lg-6">
-        <h2>Our Philosophy</h2>
-        <p>We know that greatness in a disruptive era requires bold ambition, curious talent, and a collaborative
-          culture.</p>
-        <p>We approach every challenge holistically with best-in-class expertise in data, creativity, media, and
-          technology. This is what we call Alchemy—it's our formula for transformative success.</p>
-      </div>
-      <div class="col-lg-6">
-        <img src="Image/Logo/Bootstrap-512.png" class="img-fluid" alt="Bootstrap Logo">
-      </div>
-    </div>
-    <hr class="my-4">
-  </div>
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="display-5 font-weight-bold">Our Philosophy</h2>
+          <p class="lead mt-3">
+            We know that greatness in a disruptive era requires bold ambition, curious talent, and a collaborative
+            culture.
+          </p>
+          <p class="text-muted">
+            We approach every challenge holistically with best-in-class expertise in data, creativity, media, and
+            technology.
+            This is what we call <strong>Alchemy</strong>—our formula for transformative success.
+          </p>
+        </div>
 
-  <!-- Contact -->
-  <div class="container-fluid text-center padding">
-    <h2>Connect</h2>
-    <div class="social">
-      <a href="#"><i class="fa fa-facebook mx-2"></i></a>
-      <a href="#"><i class="fa fa-twitter mx-2"></i></a>
-      <a href="#"><i class="fa fa-google-plus mx-2"></i></a>
-      <a href="#"><i class="fa fa-instagram mx-2"></i></a>
-      <a href="#"><i class="fa fa-github mx-2"></i></a>
-      <a href="#"><i class="fa fa-linkedin mx-2"></i></a>
-      <a href="#"><i class="fa fa-map-marker mx-2"></i></a>
-      <a href="#"><i class="fa fa-youtube mx-2"></i></a>
+        <!-- Image -->
+        <div class="col-lg-6 text-center">
+          <img src="Image/Logo/graphic-1552416_1280.png" class="img-fluid rounded shadow-sm"
+            alt="Our Philosophy Graphic">
+        </div>
+      </div>
+      <hr class="my-5">
     </div>
-  </div>
+  </section>
+
+  <!-- Contact / Connect Section -->
+  <section class="bg-light py-5 text-center" id="connect">
+    <div class="container">
+      <h2 class="display-5 mb-4">Connect with Us</h2>
+
+      <div class="d-flex justify-content-center flex-wrap gap-4 fs-4">
+        <a href="#" class="text-dark mx-3"><i class="fa fa-facebook fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-twitter fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-google-plus fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-instagram fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-github fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-linkedin fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-map-marker fa-5x"></i></a>
+        <a href="#" class="text-dark mx-3"><i class="fa fa-youtube fa-5x"></i></a>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Footer -->
-  <footer class="bg-dark mt-4">
-    <div class="container-fluid padding text-center">
+  <footer class="bg-dark text-light pt-5 pb-4">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <img src="Image/Logo/2efb024c-e410-4081-8379-52416844b899_200x200-removebg-preview.png" width="60" alt="Logo">
-          <hr class="light">
-          <p>+91 9878413813</p>
-          <p>johnsontopno1@gmail.com</p>
-          <p>100 Street Name</p>
-          <p>City, State, 000000</p>
+
+        <!-- Logo & Branding -->
+        <div class="col-md-3 mb-4 text-center text-md-left">
+          <img src="Image/Logo/The_Mafia_Gaming_Logo1.png" width="150" alt="Company Logo" class="mb-3">
+          <h5 class="text-uppercase">The Mafia Gaming</h5>
+          <p class="small text-muted">Gaming & Creative Solutions</p>
         </div>
-        <div class="col-md-4">
-          <hr class="light">
-          <h5>Our Hours</h5>
-          <hr class="light">
-          <p>Monday: 8am - 5pm</p>
-          <p>Saturday: 10am - 4pm</p>
-          <p>Sunday: Closed</p>
+
+        <!-- Contact Info -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Contact</h5>
+          <hr class="bg-light mb-2 mt-1" style="width: 60px;">
+          <p class="mb-1"><i class="fa fa-phone mr-2"></i>+91 9878413813</p>
+          <p class="mb-1"><i class="fa fa-envelope mr-2"></i>
+            <a href="mailto:johnsontopno1@gmail.com" class="text-light">johnsontopno1@gmail.com</a>
+          </p>
+          <p class="mb-0"><i class="fa fa-map-marker mr-2"></i>100 Street Name,<br>City, State - 000000</p>
         </div>
-        <div class="col-md-4">
-          <hr class="light">
-          <h5>Service Area</h5>
-          <hr class="light">
-          <p>City, State, 000000</p>
-          <p>City, State, 000000</p>
-          <p>City, State, 000000</p>
-          <p>City, State, 000000</p>
+
+        <!-- Office Hours -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Office Hours</h5>
+          <hr class="bg-light mb-2 mt-1" style="width: 60px;">
+          <p class="mb-1">Mon–Fri: 8:00 AM – 5:00 PM</p>
+          <p class="mb-1">Saturday: 10:00 AM – 4:00 PM</p>
+          <p class="mb-0">Sunday: <span class="text-muted">Closed</span></p>
         </div>
-        <div class="col-12 mt-3">
-          <hr class="light-100">
-          <p>&copy; johnsontopno@gmail.com</p>
+
+        <!-- Service Areas -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Service Areas</h5>
+          <hr class="bg-light mb-2 mt-1" style="width: 60px;">
+          <ul class="list-unstyled mb-0">
+
+            <li class="nav-item"><a class="nav-link" href="#slides">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="row mt-4">
+        <div class="col text-center">
+          <hr class="bg-light">
+          <p class="mb-0 small">&copy; 2025 <strong>johnsontopno@gmail.com</strong> · All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
+
 
 </body>
 
