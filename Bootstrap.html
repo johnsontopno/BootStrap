@@ -27,8 +27,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
         </ul>
@@ -67,7 +67,7 @@
   </div>
 
   <!-- Jumbotron -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="about">
     <div class="row jumbotron">
       <div class="col-md-9">
         <p class="lead">A web hosting service allows individuals and organizations to make their websites accessible via
@@ -79,62 +79,74 @@
     </div>
   </div>
 
-  <!-- Welcome Section -->
-  <div class="container-fluid text-center py-4">
-    <h1 class="display-4">Build with ease.</h1>
-    <hr>
-    <p class="lead">Welcome to my Bootstrap 4 website. Bootstrap is a free and open-source front-end framework based on
-      HTML, CSS, and JavaScript.</p>
-  </div>
+<!-- Welcome Section -->
+<div class="container-fluid text-center py-5 bg-light" id="services">
+  <h1 class="display-4 font-weight-bold">Build with Confidence</h1>
+  <hr class="w-25 mx-auto">
+  <p class="lead text-muted">
+    Welcome to a modern, responsive web experience powered by Bootstrap 4. 
+    Built using clean HTML5, enhanced CSS3, and scalable components for any device.
+  </p>
+</div>
 
-  <!-- Three Column Section -->
-  <div class="container-fluid padding text-center">
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <i class="fa fa-code fa-2x mb-2"></i>
-        <h3>HTML5</h3>
-        <p>Built with the latest version of HTML, HTML5.</p>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <i class="fa fa-bold fa-2x mb-2"></i>
-        <h3>Bootstrap</h3>
-        <p>Built using Bootstrap 4 for responsive design.</p>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <i class="fa fa-css3 fa-2x mb-2"></i>
-        <h3>CSS3</h3>
-        <p>Enhanced styling using CSS3 capabilities.</p>
-      </div>
+<!-- Features Section -->
+<div class="container-fluid py-5 text-center">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 mb-4">
+      <i class="fa fa-code fa-3x text-primary mb-3"></i>
+      <h4 class="font-weight-bold">HTML5</h4>
+      <p class="text-muted">Built using the latest standards in HTML for performance and structure.</p>
     </div>
-    <hr class="my-4">
+    <div class="col-sm-6 col-md-4 mb-4">
+      <i class="fa fa-bold fa-3x text-primary mb-3"></i>
+      <h4 class="font-weight-bold">Bootstrap 4</h4>
+      <p class="text-muted">Responsive design framework for mobile-first, clean UI layouts.</p>
+    </div>
+    <div class="col-sm-12 col-md-4 mb-4">
+      <i class="fa fa-css3 fa-3x text-primary mb-3"></i>
+      <h4 class="font-weight-bold">CSS3</h4>
+      <p class="text-muted">Modern styles and animations powered by CSS3 enhancements.</p>
+    </div>
   </div>
+  <hr class="my-4 w-50 mx-auto">
+</div>
 
-  <!-- Two Column Section -->
-  <div class="container-fluid padding">
-    <div class="row padding">
-      <div class="col-lg-6">
-        <h2>If You Build It...</h2>
-        <p>Columns stack on top of each other below 576px screen width.</p>
-        <p>Responsive design is essential as mobile traffic dominates internet usage.</p>
-        <p>Web pages adapt dynamically to different screen sizes and devices.</p>
-        <a href="#" class="btn btn-primary mt-3">Learn More</a>
-      </div>
-      <div class="col-lg-6">
-        <img src="Image/User/young-businesswoman-checking-her-tablet-with-copy-space_23-2148826479.jpg"
-          class="img-fluid" alt="Businesswoman">
-      </div>
+<!-- Two Column Info Section -->
+<div class="container-fluid py-5">
+  <div class="row align-items-center">
+    <div class="col-lg-6 mb-4 mb-lg-0">
+      <h2 class="font-weight-bold">Why Responsive Design Matters</h2>
+      <p class="text-muted">In a mobile-first world, your content must adapt gracefully across all screen sizes.</p>
+      <p class="text-muted">Bootstrap's responsive grid ensures your layout performs consistently on desktops, tablets, and smartphones.</p>
+      <p class="text-muted">Let your website shine with flexibility, speed, and accessibility.</p>
+      <a href="#" class="btn btn-primary mt-3 px-4">Learn More</a>
     </div>
-    <hr class="my-4">
+    <div class="col-lg-6">
+      <img src="Image/User/young-businesswoman-checking-her-tablet-with-copy-space_23-2148826479.jpg"
+        class="img-fluid rounded shadow" alt="Professional using tablet">
+    </div>
   </div>
+  <hr class="my-4">
+</div>
 
   <!-- Fixed Background -->
-  <figure>
+  <!-- <figure>
     <div class="fixed-wrap">
       <div id="fixed">
         <img src="Image/background.jpg" width="100%" alt="Fixed Background">
       </div>
     </div>
-  </figure>
+  </figure> -->
+
+  <!-- Fixed Background Section -->
+<section class="fixed-background text-center text-white d-flex align-items-center justify-content-center">
+  <div class="overlay-content">
+    <h2 class="display-4 font-weight-bold">Seamless User Experience</h2>
+    <p class="lead">Modern, responsive, and visually engaging web design</p>
+    <a href="#" class="btn btn-outline-light mt-3 px-4">Discover More</a>
+  </div>
+</section>
+
 
   <!-- Emoji Section -->
   <div class="text-center my-3">
